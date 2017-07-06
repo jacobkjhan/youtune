@@ -1,13 +1,11 @@
 /* Dependencies */
-const {combineReducers} = require('redux');
+import { combineReducers } from 'redux';
 
 /* Import Other Reducers */
-import dummyReducer from './dummyReducer.js';
+import dummyReducer from './dummy';
 
 
 /* Combine & Export Reducers to Store */
-const mainReducer = combineReducers({
+export default combineReducers({
   dummyReducer
 });
-
-module.exports = mainReducer;

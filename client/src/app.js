@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
 
 //load components
-import EmailSplash from './components/EmailSplash';
+import AudioContext from './react/AudioContext';
 
 const App = () => (
   <div>
-    <EmailSplash />
+    <AudioContext />
   </div>
 );
 
 export default App;
-
-
 
 //React Router v4 Notes - from https://medium.com/@pshrmn/a-simple-react-router-v4-tutorial-7f23ff27adf
 
